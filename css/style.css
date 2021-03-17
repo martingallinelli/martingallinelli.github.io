@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Teko:wght@300&display=swap');
+
+.handlee {
+    font-family: 'Handlee', cursive;
+}
+
+.teko {
+    font-family: 'Teko', sans-serif;
+}
+
+.pizarron {
+    background: url("../images/pizarron.jpg") center no-repeat fixed;
+    opacity: 0.9;
+}
+
+.portada {
+    background: url("../images/portada.jpg") top / cover fixed;
+}
+
+    @media screen and (min-width: 1024px) {
+        .portada {
+            background-position: 0px -120px;
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        .portada {
+            background-position-y: -180px;
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        .portada {
+            background-position-y: -240px;
+        }
+    }
+
+#scrollUp {
+    width: 35px;
+    height: 35px;
+    bottom: 150px;
+    right: 10px;
+    background: url('../images/arrow.svg');
+    transform: rotate(-90deg);
+}

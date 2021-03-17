@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Gallinelli C.V.</title>
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- PORTADA -->
+    <div class="portada">
+        <!-- NAV -->
+        <nav class="flex items-center justify-between flex-wrap p-6">
+            <div class="text-black font-bold ml-2 md:ml-10 p-4 bg-white bg-opacity-50 shadow">
+                <h1 class="handlee text-2xl block mt-2 -m-2">Martin Gallinelli</h1>
+                <h2 class="teko text-sm text-gray-400 tracking-widest ml-16 pl-1 uppercase">web developer</h2>
+            </div>
+
+            <div class="block lg:hidden">
+                <button id='boton' class="flex items-center px-3 py-2 border rounded text-white border-white">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                </button>
+            </div>
+            
+            <div id='menu' class="w-full block flex-grow text-right lg:flex lg:items-center lg:w-auto lg:mr-10 hidden">
+                <div class="text-md lg:flex-grow">
+                    <a href="#skills" class="block lg:inline-block mt-4 lg:mt-0 text-black border-transparent border-b-2 hover:text-white hover:border-white lg:mr-4">My Skills</a>
+                    <a href="#studies" class="block lg:inline-block mt-4 lg:mt-0 text-black border-transparent border-b-2 hover:text-white hover:border-white lg:mr-4">My studies</a>
+                    <a href="https://www.linkedin.com/in/martingallinelli/" class="block lg:inline-block mt-4 lg:mt-0 bg-blue-50 bg-opacity-50 lg:bg-transparent py-1 lg:py-0 pr-1 lg:pr-0" target="_blank">
+                        <img src="images/linkedin.svg" alt="Logo de linkedin" class="w-5 shadow inline-block mb-0.5">
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- FIN NAV -->         
+        
+        <!-- ABOUT ME -->
+        <div class="px-7 py-10 sm:px-10 lg:flex lg:justify-end">
+            <div id="aboutMe" class="bg-white bg-opacity-50 p-2 md:mx-auto lg:mx-0 md:max-w-screen-sm">
+                <h2 class="text-4xl text-blue-500 font-bold text-center tracking-wider mb-10">About me</h2>
+
+                <p class="font-sans font-medium text-center">Hi! I'm <b>Martin Gallinelli</b>. I am a person determined to develop my full potential, understanding that there are no limits other than those we impose on ourselves. Always wanting and doing to progress. I like teamwork. Self-taught, proactive, decisive and in search of new challenges to grow.</p>
+
+                <table class="table-auto border-separate font-sans font-medium text-sm mx-auto mt-5">
+                    <tbody>
+                    <tr>
+                        <td class="font-bold sm:pr-5">Age:</td>
+                        <td>32 years</td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold sm:pr-5">Experience:</td>
+                        <td>+3 years</td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold sm:pr-5">Email:</td>
+                        <td>gallinellimartin@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold sm:pr-5">Phone:</td>
+                        <td>+549 221 6267249</td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold sm:pr-5">Website:</td>
+                        <td><a href="https://www.headesign.com.ar" target="_blank">Headesign</a></td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold sm:pr-5">Living in:</td>
+                        <td>La Plata, Bs. As., Argentina</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <p class="text-xl text-blue-600 font-bold text-center mt-5">Let's work together!</p>
+            </div>
+        </div>
+        <!-- FIN ABOUT ME -->
+    </div>
+    <!-- FIN PORTADA -->
+
+    <!-- MY SKILLS -->
+    <div class="py-10 bg-gray-100 bg-opacity-75">
+        <div id="skills" class="">
+            <h2 class="text-4xl font-bold text-center tracking-wider mb-10">My Skills</h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-screen-md mx-auto">
+                <!-- TECHNICAL SKILLS -->
+                <div class="border rounded-lg shadow-md mx-10 md:mx-4 mb-5 md:mb-0 py-5">
+                    <div class="text-center mb-10">
+                        <div class="inline-block border-b border-black pb-2">
+                            <i class="fas fa-cog text-2xl block text-yellow-500 md:inline-block md:mr-1"></i>
+                            <h3 class="text-2xl font-bold text-center md:inline-block">Technical Skills</h3>
+                        </div>
+                    </div>
+
+                    <!-- HTML -->
+                    <div class="flex mb-3 justify-center">
+                        <div class="mr-5 pt-1">
+                            <img src="images/html.svg" alt="" class="w-7">
+                        </div>
+                        
+                        <div class="text-yellow-600 bg-yellow-100 rounded-full px-2.5 py-1 shadow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <!-- FIN HTML -->
+
+                    <!-- CSS -->
+                    <div class="flex mb-3 justify-center">
+                        <div class="mr-5 pt-1">
+                            <img src="images/css.svg" alt="" class="w-6">
+                        </div>
+                        
+                        <div class="text-blue-500 bg-blue-100 rounded-full px-2.5 py-1 shadow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div> 
+                    <!-- FIN CSS -->
+
+                    <!-- BOOTSTRAP -->
+                    <div class="flex mb-3 justify-center">
+                        <div class="flex items-center mr-4">
+                            <img src="images/bootstrap.svg" alt="" class="w-8">
+                        </div>
+
+                        <div class="text-purple-600 bg-purple-100 rounded-full px-2.5 py-1 shadow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <!-- FIN BOOTSTRAP -->
+
+                    <!-- TAILWIND -->
+                    <div class="flex mb-3 justify-center">
+                        <div class="flex items-center mr-4">
+                            <img src="images/tailwindcss.svg" alt="" class="w-8">
+                        </div>
+                        
+                        <div class="text-green-500 bg-green-100 rounded-full px-2.5 py-1 shadow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <!-- FIN TAILWIND -->
+
+                    <!-- JAVASCRIPT -->
+                    <div class="flex mb-3 justify-center">
+                        <div class="flex items-center mr-5 pl-1">
+                            <img src="images/js.svg" alt="" class="w-6">
+                        </div>
+                        
+                        <div class="text-yellow-400 bg-yellow-100 rounded-full px-2.5 py-1 shadow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div> 
+                    <!-- FIN JAVASCRIPT -->
+
+                    <!-- PHP -->
+                    <div class="flex mb-3 justify-center">
+                        <div class="flex items-center mr-4">
+                            <img src="images/php.svg" alt="" class="w-9">
+                        </div>
+                        
+                        <div class="text-indigo-500 bg-indigo-100 rounded-full px-2.5 py-1 shadow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <!-- FIN PHP -->
+
+                    <!-- LARAVEL -->
+                    <div class="flex mb-3 justify-center">
+                        <div class="flex items-center mr-5">
+                            <img src="images/laravel.svg" alt="" class="w-8">
+                        </div>
+                        
+                        <div class="text-red-500 bg-red-100 rounded-full px-2.5 py-1 shadow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <!-- FIN LARAVEL -->
+
+                    
+                    <!-- MYSQL -->
+                    <div class="flex mb-3 justify-center">
+                        <div class="flex items-center mr-5">
+                            <img src="images/mysql.png" alt="" class="w-8">
+                        </div>
+                        
+                        <div class="text-blue-400 bg-blue-100 rounded-full px-2.5 py-1 shadow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <!-- FIN MYSQL -->
+                </div>
+                <!-- FIN TECHNICAL SKILLS -->
+
+                <!-- PROFESSIONAL SKILLS -->
+                <div class="border rounded-lg shadow-md mx-10 md:mx-4 py-5">
+                    <div class="text-center mb-10">
+                        <div class="inline-block border-b border-black pb-2">
+                            <i class="fas fa-briefcase text-2xl block text-yellow-700 md:inline-block md:mr-2"></i>
+                            <h3 class="text-2xl font-bold text-center md:inline-block">Professional Skills</h3>
+                        </div>
+                    </div>
+
+                    <!-- COMMUNICATIVE -->
+                    <div class="flex flex-wrap justify-center mb-5">
+                        <p class="font-bold leading-loose mx-20 md:mx-5">Communicative</p>
+
+                        <div class="text-green-500 bg-green-100 rounded-full px-2.5 py-1 shadow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <!-- FIN COMMUNICATIVE -->
+
+                    <!-- PROACTIVE -->
+                    <div class="flex flex-wrap justify-center mb-5">
+                        <div class="mx-20 md:ml-4 md:mr-14">
+                            <p class="font-bold leading-loose">Proactive</p>
+                        </div>
+
+                        <div class="md:ml-3">
+                            <div class="text-green-500 bg-green-100 rounded-full px-2.5 py-1 shadow">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FIN PROACTIVE -->
+                    
+                    <!-- LEADERSHIP -->
+                    <div class="flex flex-wrap justify-center mb-5">
+                        <div class="mx-20 md:ml-4 md:mr-10">
+                            <p class="font-bold leading-loose">Leadership</p>
+                        </div>
+
+                        <div class="md:ml-4">
+                            <div class="text-green-500 bg-green-100 rounded-full px-2.5 py-1 shadow">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FIN LEADERSHIP -->
+
+                    <!-- TEAMWORK -->
+                    <div class="flex flex-wrap justify-center mb-5">
+                        <div class="mx-20 md:ml-4 md:mr-10">
+                            <p class="font-bold leading-loose">Teamwork</p>
+                        </div>
+
+                        <div class="md:ml-6">
+                            <div class="text-green-500 bg-green-100 rounded-full px-2.5 py-1 shadow">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FIN TEAMWORK -->
+
+                    <!-- RESPONSABILITY -->
+                    <div class="flex flex-wrap justify-center mb-5">
+                        <div class="mx-20 md:mx-5">
+                            <p class="font-bold leading-loose">Responsability</p>
+                        </div>
+
+                        <div class="md:ml-3">
+                            <div class="text-green-500 bg-green-100 rounded-full px-2.5 py-1 shadow">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FIN RESPONSABILITY -->
+
+                    <!-- AUTODIDACT -->
+                    <div class="flex flex-wrap justify-center mb-5">
+                        <div class="mx-20 md:ml-5 md:mr-10">
+                            <p class="font-bold leading-loose">Autodidact</p>
+                        </div>
+
+                        <div class="md:ml-4">
+                            <div class="text-green-500 bg-green-100 rounded-full px-2.5 py-1 shadow">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FIN AUTODIDACT -->
+
+                    <!-- ADAPTABILITY -->
+                    <div class="flex flex-wrap justify-center mb-5">
+                        <div class="mx-20 md:ml-6 md:mr-8">
+                            <p class="font-bold leading-loose">Adaptability</p>
+                        </div>
+
+                        <div class="md:ml-3">
+                            <div class="text-green-500 bg-green-100 rounded-full px-2.5 py-1 shadow">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FIN ADAPTABILITY -->
+                </div>
+                <!-- FIN PROFESSIONAL SKILLS -->
+            </div>
+        </div>
+    </div>
+    <!-- FIN MY SKILLS -->
+
+    <!-- MY STUDIES -->
+    <div class="pizarron py-10">
+        <div id="studies" class="text-white">
+            <h2 class="text-4xl font-bold text-center tracking-wider">My Studies</h2>
+
+            <div class="max-w-screen-lg md:grid md:justify-items-center md:mx-auto">
+                <!-- CAREER -->
+                <div>
+                    <h3 class="text-xl font-bold text-yellow-400 text-left ml-12 mt-10">CAREER</h3>
+    
+                    <div class="mt-4">
+                        <div class="mx-14 border-l-2 border-white">
+                            <div class="relative pt-5 pl-6">
+                                <div class="absolute -inset-2"> 
+                                    <p class="font-semibold bg-white bg-opacity-50"><i class="fa fa-circle mr-3"></i> 2011-2013</p>
+                                </div>
+                                
+                                <p class="text-md font-bold text-blue-300 uppercase">Higher technical degree in application analysis, development and programming</p>
+                                <p class="mt-1">Instituto de Formación Docente y Técnica n° 12</p>
+                                <p class="mt-1 italic">La Plata, Buenos Aires, Argentina</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FIN CAREER -->
+
+                <!-- CONTAINER COURSES - SEMINARS -->
+                <div class="md:flex md:justify-end">
+                    <!-- COURSES -->
+                    <div class="md:w-3/6">
+                        <h3 class="text-xl font-bold text-yellow-400 text-left ml-12 mt-10">COURSES</h3>
+                        
+                        <div class="mt-4">
+                            <div class="mx-14 border-l-2 border-white">
+                                <div class="relative pt-5 pl-6">
+                                    <div class="absolute -inset-2"> 
+                                        <p class="font-semibold bg-white bg-opacity-50"><i class="fa fa-circle mr-3"></i> MARCH 2021</p>
+                                    </div>
+                                    
+                                    <p class="text-md font-bold text-blue-300 uppercase">Javascript essential</p>
+                                    <p>Prof. Brito Sergio</p>
+                                    <p class="italic">5:30 hours - LinkedIn</p>
+        
+                                    <p class="text-md font-bold text-blue-300 uppercase mt-5">Javascript regular expressions</p>
+                                    <p>Prof. Brito Sergio</p>
+                                    <p class="italic">1:30 hours - LinkedIn</p>
+        
+                                    <p class="text-md font-bold text-blue-300 uppercase mt-5">SCRUM</p>
+                                    <p>Prof. Solis Carlos</p>
+                                    <p class="italic">1:30 hours - LinkedIn</p>
+        
+                                    <p class="text-md font-bold text-blue-300 uppercase mt-5">SCRUM Roles</p>
+                                    <p>Prof. Solis Carlos</p>
+                                    <p class="italic">1:40 hours - LinkedIn</p>
+                                </div>
+                            </div>
+        
+                            <div class="mx-14 pt-8 border-l-2 border-white">
+                                <div class="relative pt-5 pl-6">
+                                    <div class="absolute -inset-2"> 
+                                        <p class="font-semibold bg-white bg-opacity-50"><i class="fa fa-circle mr-3"></i> FEBRUARY 2021</p>
+                                    </div>
+                                    
+                                    <p class="text-md font-bold text-blue-300 uppercase">Tailwind CSS</p>
+                                    <p>Bluuweb</p>
+                                    <p class="italic">2:50 hours</p>
+                                </div>
+                            </div>
+        
+                            <div class="mx-14 pt-8 border-l-2 border-white">
+                                <div class="relative pt-5 pl-6">
+                                    <div class="absolute -inset-2"> 
+                                        <p class="font-semibold bg-white bg-opacity-50"><i class="fa fa-circle mr-3"></i> DECEMBER 2020</p>
+                                    </div>
+                                    
+                                    <p class="text-md font-bold text-blue-300 uppercase">PHP MVC Laravel</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">30 hours</p>
+        
+                                    <p class="text-md font-bold text-blue-300 uppercase mt-5">PHP POO</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">12 hours</p>
+                                </div>
+                            </div>
+        
+                            <div class="mx-14 pt-8 border-l-2 border-white">
+                                <div class="relative pt-5 pl-6">
+                                    <div class="absolute -inset-2"> 
+                                        <p class="font-semibold bg-white bg-opacity-50"><i class="fa fa-circle mr-3"></i> NOVEMBER 2020</p>
+                                    </div>
+                                    
+                                    <p class="text-md font-bold text-blue-300 uppercase">PHP and MySql web programming</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">40 hours</p>
+                                </div>
+                            </div>
+        
+                            <div class="mx-14 pt-8 border-l-2 border-white">
+                                <div class="relative pt-5 pl-6">
+                                    <div class="absolute -inset-2"> 
+                                        <p class="font-semibold bg-white bg-opacity-50"><i class="fa fa-circle mr-3"></i> OCTOBER 2020</p>
+                                    </div>
+                                    
+                                    <p class="text-md font-bold text-blue-300 uppercase">Introduction to the Object Paradigm</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">9 hours</p>
+                                </div>
+                            </div>
+        
+                            <div class="mx-14 pt-8 border-l-2 border-white">
+                                <div class="relative pt-5 pl-6">
+                                    <div class="absolute -inset-2"> 
+                                        <p class="font-semibold bg-white bg-opacity-50"><i class="fa fa-circle mr-3"></i> SEPTEMBER 2020</p>
+                                    </div>
+                                    
+                                    <p class="text-md font-bold text-blue-300 uppercase">Advanced Javascript Developer</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">30 hours</p>
+                                </div>
+                            </div>
+        
+                            <div class="mx-14 pt-8 border-l-2 border-white">
+                                <div class="relative pt-5 pl-6">
+                                    <div class="absolute -inset-2"> 
+                                        <p class="font-semibold bg-white bg-opacity-50"><i class="fa fa-circle mr-3"></i> MAY 2020</p>
+                                    </div>
+                                    
+                                    <p class="text-md font-bold text-blue-300 uppercase">Javascript from scratch</p>
+                                    <p>EDTeam (Peru)</p>
+                                    <p class="italic">6 hours</p>
+        
+                                    <p class="text-md font-bold text-blue-300 uppercase mt-5">Boostrap</p>
+                                    <p>EDTeam (Peru)</p>
+                                    <p class="italic">3 hours</p>
+        
+                                    <p class="text-md font-bold text-blue-300 uppercase mt-5">Responsive web design</p>
+                                    <p>EDTeam (Peru)</p>
+                                    <p class="italic">5 hours</p>
+                                </div>
+                            </div>
+
+                            <div class="mx-14 pt-8 border-l-2 border-white">
+                                <div class="relative pt-5 pl-6">
+                                    <div class="absolute -inset-2"> 
+                                        <p class="font-semibold bg-white bg-opacity-50"><i class="fa fa-circle mr-3"></i> APRIL 2020</p>
+                                    </div>
+                                    
+                                    <p class="text-md font-bold text-blue-300 uppercase">CSS from scratch</p>
+                                    <p>EDTeam (Peru)</p>
+                                    <p class="italic">12 hours</p>
+        
+                                    <p class="text-md font-bold text-blue-300 uppercase mt-5">Responsive web design & bootstrap</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">12 hours</p>
+                                </div>
+                            </div>
+
+                            <div class="mx-14 pt-8 border-l-2 border-white">
+                                <div class="relative pt-5 pl-6">
+                                    <div class="absolute -inset-2"> 
+                                        <p class="font-semibold bg-white bg-opacity-50"><i class="fa fa-circle mr-3"></i> MARCH 2020</p>
+                                    </div>
+                                    
+                                    <p class="text-md font-bold text-blue-300 uppercase">HTML from scratch</p>
+                                    <p>EDTeam (Peru)</p>
+                                    <p class="italic">6 hours</p>
+        
+                                    <p class="text-md font-bold text-blue-300 uppercase mt-5">advanced layout HTML & CSS</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">15 hours</p>
+
+                                    <p class="text-md font-bold uppercase mt-5">javascript from scratch</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">12 hours</p>
+                                </div>
+                            </div>
+
+                            <div class="mx-14 pt-8 border-l-2 border-white">
+                                <div class="relative pt-5 pl-6">
+                                    <div class="absolute -inset-2"> 
+                                        <p class="font-semibold bg-white bg-opacity-50"><i class="fa fa-circle mr-3"></i> FEBRUARY 2020</p>
+                                    </div>
+                                    
+                                    <p class="text-md font-bold text-blue-300 uppercase">introduction to database and sql</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">12 hours</p>
+        
+                                    <p class="text-md font-bold text-blue-300 uppercase mt-5">introduction to web development II</p>
+                                    <p>Google Activate</p>
+                                    <p class="italic">40 hours</p>
+                                </div>
+                            </div>
+
+                            <div class="mx-14 pt-8 border-l-2 border-white">
+                                <div class="relative pt-5 pl-6">
+                                    <div class="absolute -inset-2"> 
+                                        <p class="font-semibold bg-white bg-opacity-50"><i class="fa fa-circle mr-3"></i> JANUARY 2020</p>
+                                    </div>
+        
+                                    <p class="text-md font-bold text-blue-300 uppercase">introduction to web development I</p>
+                                    <p>Google Activate</p>
+                                    <p class="italic">40 hours</p>
+                                </div>
+                            </div>
+
+                            <div class="mx-14 pt-8 border-l-2 border-white">
+                                <div class="relative pt-5 pl-6">
+                                    <div class="absolute -inset-2"> 
+                                        <p class="font-semibold bg-white bg-opacity-50"><i class="fa fa-circle mr-3"></i> DECEMBER 2019</p>
+                                    </div>
+        
+                                    <p class="text-md font-bold text-blue-300 uppercase">web layout HTML & CSS</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">18 hours</p>
+
+                                    <p class="text-md font-bold text-blue-300 uppercase mt-5">HTML5 fundamentals of a web page</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">12 hours</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FIN COURSES -->
+    
+                    <!-- SEMINARS -->
+                    <div class="md:w-3/6">
+                        <h3 class="text-xl font-bold text-yellow-400 text-left ml-12 mt-10">SEMINARS</h3>
+        
+                        <div class="mt-4">
+                            <div class="mx-14 border-l-2 border-white">
+                                <div class="relative pt-5 pl-6">
+                                    <div class="absolute -inset-2"> 
+                                        <p class="font-semibold bg-white bg-opacity-50"><i class="fa fa-circle mr-3"></i> APRIL 2020</p>
+                                    </div>
+                                    
+                                    <p class="text-md font-bold text-blue-300 uppercase">web programming seminar</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">2 hours</p>
+
+                                    <p class="text-md font-bold text-blue-300 uppercase mt-5">ux web usability seminar</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">2 hours</p>
+
+                                    <p class="text-md font-bold text-blue-300 uppercase mt-5">time management seminar</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">2 hours</p>
+
+                                    <p class="text-md font-bold text-blue-300 uppercase mt-5">javascript seminar</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">2 hours</p>
+                                </div>
+                            </div>
+
+                            <div class="mx-14 pt-8 border-l-2 border-white">
+                                <div class="relative pt-5 pl-6">
+                                    <div class="absolute -inset-2"> 
+                                        <p class="font-semibold bg-white bg-opacity-50"><i class="fa fa-circle mr-3"></i> MARCH 2020</p>
+                                    </div>
+                                    
+                                    <p class="text-md font-bold text-blue-300 uppercase">android seminar</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">2 hours</p>
+
+                                    <p class="text-md font-bold text-blue-300 uppercase mt-5">ux web usability seminar</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">2 hours</p>
+
+                                    <p class="text-md font-bold text-blue-300 uppercase mt-5">computer networks seminar</p>
+                                    <p>Educación IT (Argentina)</p>
+                                    <p class="italic">2 hours</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FIN SEMINARS -->
+                </div>
+                <!-- FIN CONTAINER COURSES - SEMINARS -->
+            </div>
+        </div>
+    </div>
+    <!-- FIN MY STUDIES -->
+
+    <script src="https://kit.fontawesome.com/fc60235d09.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/scrollUp.js"></script>
+</body>
+</html>
