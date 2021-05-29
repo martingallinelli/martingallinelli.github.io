@@ -9,7 +9,8 @@
     <title>Martin Gallinelli C.V.</title>
 
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
 </head>
 <body>
     <!-- PORTADA -->
@@ -76,7 +77,7 @@
                     </tr>
                     <tr>
                         <td class="font-bold sm:pr-5">My C.V.:</td>
-                        <td><a href="https://drive.google.com/file/d/1meeLCN2yIVujhVab7V3xl6-sgWlc9v6K/view?usp=sharing" target="_blank" class="hover:text-blue-600">VER (.pdf)</a></td>
+                        <td><a href="https://drive.google.com/file/d/1meeLCN2yIVujhVab7V3xl6-sgWlc9v6K/view?usp=sharing" target="_blank" class="hover:text-blue-600"><i class="fas fa-download"></i> (.pdf)</a></td>
                     </tr>
                     </tbody>
                 </table>
@@ -339,7 +340,8 @@
                                         </div>
 
                                         <div class="relative">
-                                            <p class="text-md font-bold text-blue-300 uppercase">Relational database design</p>
+                                            <p class="text-md font-bold text-blue-300 uppercase">Relational database design [ <a title="Relational database design" data-srcset="images/certifications/Introducción a Software Testing QA.jpg" href="images/certifications/Introducción a Software Testing QA.jpg" data-gallery><i class="far fa-image text-lg text-white hover:text-blue-300"></i></a> ]</p>
+                                            <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-1.jpg" data-lightbox="example-1"><i class="far fa-image text-lg text-white hover:text-blue-300"></i></a>
                                             <p>Prof. Noemí León</p>
                                             <p class="italic">1 hour - LinkedIn</p>
 
@@ -753,8 +755,9 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/fc60235d09.js" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/scrollUp.js"></script>
 </body>
 </html>
